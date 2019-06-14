@@ -1,0 +1,301 @@
+ @charset "utf-8";
+ //Fonts
+    $font1: null;
+    $font2: null;
+//Background
+    $bg-sidemenu-header: null;
+    $bg-sidemenu-content: null;
+    $bg-group-lines-content: null;
+    $bg-group-lines-mobile-content: null;
+//Links
+    $link-color: null;
+    $link-color-hover: null;
+    $sidemenu-border-color: null;
+//Lines Top Menu Icons Sports
+    $lines-nav-sports-menu-link: null;
+    $lines-nav-sports-menu-link-active: null;
+    $lines-numbers-bg: null;
+//Lines Tabs Menu Sports
+    $lines-nav-sports-tabs-link: null;
+    $lines-nav-sports-tabs-link-active: null;
+    $lines-nav-sports-tabs-title: null;
+//Lines Tabs Menu Soccer Sports
+    $lines-nav-sports-tabs-soccer-link: null;
+    $lines-nav-sports-tabs-soccer-link-active: null;
+    $lines-nav-sports-tabs-soccer-title: null;
+//Lines Top Mobile Menu Icons Sports
+    $lines-mobile-nav-sports-menu-link: null;
+    $lines-mobile-nav-sports-menu-link-active: null;
+    $lines-mobile-numbers-bg: null;
+//Lines Sport Header
+    $lines-sports-header-text: null;
+    $lines-sports-header-border-live: null;
+    $lines-sports-header-bg: null;
+//Lines Sport Mobile Header
+    $lines-sports-mobile-header-text: null;
+    $lines-sports-mobile-header-border-live: null;
+    $lines-sports-mobile-header-bg: null;
+//Lines Button Sports
+    $lines-sports-button-text: null;
+    $lines-sports-button-bg-pick: null;
+    $lines-sports-button-bg-change: null;
+//Betslip Colors
+
+
+  @if $brand == 'mybookie' {
+    $font1: 'Oswald', sans-seri;
+    $font2: 'Arial', sans-seri;
+//Background
+    $bg-sidemenu-header: #2D3341;
+    $bg-sidemenu-content: #FFF;
+    $bg-group-lines-content: #fff;
+    $bg-group-lines-mobile-content: #eeeff1;
+//Links
+    $link-color: #171D1C;
+    $link-color-hover: #171D1C;
+    $sidemenu-border-color: #93A3B2;
+//Lines Top Menu Sports
+    $lines-nav-sports-menu-link: #171D1C;
+    $lines-nav-sports-menu-link-active: #F48220;
+    $lines-numbers-bg: #F0F1F3;
+//Lines Top Mobile Menu Icons Sports
+    $lines-mobile-nav-sports-menu-link: #171D1C;
+    $lines-mobile-nav-sports-menu-link-active: #F48220;
+    $lines-mobile-numbers-bg: #ebe8e8;
+//Lines Tabs Menu Sports
+    $lines-nav-sports-tabs-link: #fff;
+    $lines-nav-sports-tabs-link-active: #F48220;
+    $lines-nav-sports-tabs-title: #555D71;
+//Lines Tabs Menu Soccer Sports
+    $lines-nav-sports-tabs-soccer-link: #171D1C;
+    $lines-nav-sports-tabs-soccer-link-active: #F48220;
+    $lines-nav-sports-tabs-soccer-title: #555D71;
+//Lines Sport Header
+    $lines-sports-header-text: #fff;
+    $lines-sports-header-border-live: #63A744;
+    $lines-sports-header-bg: #2D3341;
+//Lines Sport Mobile Header
+    $lines-sports-mobile-header-text: #222625;
+    $lines-sports-mobile-header-border-live: null;
+    $lines-sports-mobile-header-bg: #dbdfe4;
+//Lines Button Sports
+    $lines-sports-button-text: #fff;
+    $lines-sports-button-bg-pick: #1C67BB;
+    $lines-sports-button-bg-change: #F48220;
+//
+
+  }@if $brand == 'mybcasino' {
+    $font1: 'Oswald', sans-seri;
+    $font2: 'Arial', sans-seri;
+//Background
+    $bg-sidemenu-header: null;
+    $bg-sidemenu-content: null;
+    $bg-group-lines-content: null;
+    $bg-group-lines-mobile-content: null;
+//Links
+    $link-color: null;
+    $link-color-hover: null;
+    $sidemenu-border-color: null;
+//Lines Top Menu Sports
+    $lines-nav-sports-menu-link: null;
+    $lines-nav-sports-menu-link-active: null;
+    $lines-numbers-bg: null;
+//Lines Top Mobile Menu Icons Sports
+    $lines-mobile-nav-sports-menu-link: null;
+    $lines-mobile-nav-sports-menu-link-active: null;
+    $lines-mobile-numbers-bg: null;
+//Lines Tabs Menu Sports
+    $lines-nav-sports-tabs-link: null;
+    $lines-nav-sports-tabs-link-active: null;
+    $lines-nav-sports-tabs-title: #555D71;
+//Lines Tabs Menu Soccer Sports
+    $lines-nav-sports-tabs-soccer-link: null;
+    $lines-nav-sports-tabs-soccer-link-active: null;
+    $lines-nav-sports-tabs-soccer-title: null;
+//Lines Sport Header
+    $lines-sports-header-text: null;
+    $lines-sports-header-border-live: null;
+    $lines-sports-header-bg: null;
+//Lines Sport Mobile Header
+    $lines-sports-mobile-header-text: null;
+    $lines-sports-mobile-header-border-live: null;
+    $lines-sports-mobile-header-bg: null;
+//Lines Button Sports
+    $lines-sports-button-text: null;
+    $lines-sports-button-bg-pick: null;
+    $lines-sports-button-bg-change: null;
+
+
+  }@if $brand == 'xbet' {
+    $font1: 'Oswald', sans-seri;
+    $font2: 'Arial', sans-seri;
+    $bg-group-lines-content: null;
+    $bg-group-lines-mobile-content: null;
+//Background
+    $bg-sidemenu-header: null;
+    $bg-sidemenu-content: null;
+//Links
+    $link-color: null;
+    $link-color-hover: null;
+    $sidemenu-border-color: null;
+//Lines Top Menu Sports
+    $lines-nav-sports-menu-link: null;
+    $lines-nav-sports-menu-link-active: null;
+    $lines-numbers-bg: null;
+//Lines Top Mobile Menu Icons Sports
+    $lines-mobile-nav-sports-menu-link: null;
+    $lines-mobile-nav-sports-menu-link-active: null;
+    $lines-mobile-numbers-bg: null;
+//Lines Tabs Menu Sports
+    $lines-nav-sports-tabs-link: null;
+    $lines-nav-sports-tabs-link-active: null;
+    $lines-nav-sports-tabs-title: #555D71;
+//Lines Tabs Menu Soccer Sports
+    $lines-nav-sports-tabs-soccer-link: null;
+    $lines-nav-sports-tabs-soccer-link-active: null;
+    $lines-nav-sports-tabs-soccer-title: null;
+//Lines Sport Header
+    $lines-sports-header-text: null;
+    $lines-sports-header-border-live: null;
+    $lines-sports-header-bg: null;
+//Lines Sport Mobile Header
+    $lines-sports-mobile-header-text: null;
+    $lines-sports-mobile-header-border-live: null;
+    $lines-sports-mobile-header-bg: null;
+//Lines Button Sports
+    $lines-sports-button-text: null;
+    $lines-sports-button-bg-pick: null;
+    $lines-sports-button-bg-change: null;
+
+
+  }@if $brand == 'apuestele' {
+    $font1: 'Oswald', sans-seri;
+    $font2: 'Arial', sans-seri;
+//Background
+    $bg-sidemenu-header: null;
+    $bg-sidemenu-content: null;
+    $bg-group-lines-content: null;
+    $bg-group-lines-mobile-content: null;
+//Links
+    $link-color: null;
+    $link-color-hover: null;
+    $sidemenu-border-color: null;
+//Lines Top Menu Sports
+    $lines-nav-sports-menu-link: null;
+    $lines-nav-sports-menu-link-active: null;
+    $lines-numbers-bg: null;
+//Lines Top Mobile Menu Icons Sports
+    $lines-mobile-nav-sports-menu-link: null;
+    $lines-mobile-nav-sports-menu-link-active: null;
+    $lines-mobile-numbers-bg: null;
+//Lines Tabs Menu Sports
+    $lines-nav-sports-tabs-link: null;
+    $lines-nav-sports-tabs-link-active: null;
+    $lines-nav-sports-tabs-title: #555D71;
+//Lines Tabs Menu Soccer Sports
+    $lines-nav-sports-tabs-soccer-link: null;
+    $lines-nav-sports-tabs-soccer-link-active: null;
+    $lines-nav-sports-tabs-soccer-title: null;
+//Lines Sport Header
+    $lines-sports-header-text: null;
+    $lines-sports-header-border-live: null;
+    $lines-sports-header-bg: null;
+//Lines Sport Mobile Header
+    $lines-sports-mobile-header-text: null;
+    $lines-sports-mobile-header-border-live: null;
+    $lines-sports-mobile-header-bg: null;
+//Lines Button Sports
+    $lines-sports-button-text: null;
+    $lines-sports-button-bg-pick: null;
+    $lines-sports-button-bg-change: null;
+
+
+ 
+  }@if $brand == 'apueston' {
+    $font1: 'Oswald', sans-seri;
+    $font2: 'Arial', sans-seri;
+//Background
+    $bg-sidemenu-header: null;
+    $bg-sidemenu-content: null;
+    $bg-group-lines-content: null;
+    $bg-group-lines-mobile-content: null;
+//Links
+    $link-color: null;
+    $link-color-hover: null;
+    $sidemenu-border-color: null;
+//Lines Top Menu Sports
+    $lines-nav-sports-menu-link: null;
+    $lines-nav-sports-menu-link-active: null;
+    $lines-numbers-bg: null;
+//Lines Top Mobile Menu Icons Sports
+    $lines-mobile-nav-sports-menu-link: null;
+    $lines-mobile-nav-sports-menu-link-active: null;
+    $lines-mobile-numbers-bg: null;
+//Lines Tabs Menu Sports
+    $lines-nav-sports-tabs-link: null;
+    $lines-nav-sports-tabs-link-active: null;
+    $lines-nav-sports-tabs-title: #555D71;
+//Lines Tabs Menu Soccer Sports
+    $lines-nav-sports-tabs-soccer-link: null;
+    $lines-nav-sports-tabs-soccer-link-active: null;
+    $lines-nav-sports-tabs-soccer-title: null;
+//Lines Sport Header
+    $lines-sports-header-text: null;
+    $lines-sports-header-border-live: null;
+    $lines-sports-header-bg: null;
+//Lines Sport Mobile Header
+    $lines-sports-mobile-header-text: null;
+    $lines-sports-mobile-header-border-live: null;
+    $lines-sports-mobile-header-bg: null;
+//Lines Button Sports
+    $lines-sports-button-text: null;
+    $lines-sports-button-bg-pick: null;
+    $lines-sports-button-bg-change: null;
+    $betslip-input-border: #4D4D4F;
+
+ 
+  }@if $brand == 'bigspincasino' {
+    $font1: 'Tahoma', sans-seri;
+    $font2: 'Arial', sans-seri;
+//Background
+    $bg-sidemenu-header: null;
+    $bg-sidemenu-content: null;
+    $bg-group-lines-content: null;
+    $bg-group-lines-mobile-content: null;
+//Links
+    $link-color: null;
+    $link-color-hover: null;
+    $sidemenu-border-color: null;
+//Lines Top Menu Sports
+    $lines-nav-sports-menu-link: null;
+    $lines-nav-sports-menu-link-active: null;
+    $lines-numbers-bg: null;
+//Lines Top Mobile Menu Icons Sports
+    $lines-mobile-nav-sports-menu-link: null;
+    $lines-mobile-nav-sports-menu-link-active: null;
+    $lines-mobile-numbers-bg: null;
+//Lines Tabs Menu Sports
+    $lines-nav-sports-tabs-link: null;
+    $lines-nav-sports-tabs-link-active: null;
+    $lines-nav-sports-tabs-title: #555D71;
+//Lines Tabs Menu Soccer Sports
+    $lines-nav-sports-tabs-soccer-link: null;
+    $lines-nav-sports-tabs-soccer-link-active: null;
+    $lines-nav-sports-tabs-soccer-title: null;
+//Lines Sport Header
+    $lines-sports-header-text: null;
+    $lines-sports-header-border-live: null;
+    $lines-sports-header-bg: null;
+//Lines Sport Mobile Header
+    $lines-sports-mobile-header-text: null;
+    $lines-sports-mobile-header-border-live: null;
+    $lines-sports-mobile-header-bg: null;
+//Lines Button Sports
+    $lines-sports-button-text: null;
+    $lines-sports-button-bg-pick: null;
+    $lines-sports-button-bg-change: null;
+
+
+
+  }
+

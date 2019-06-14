@@ -1,26 +1,26 @@
+$brand: 'mybookie';
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import "variables";
+@import "functions";
+@import "mixins";
+@import "typography";
 
 .container {
   margin-top: 100px;
+  max-width: 1330px;
 }
 
 .scroll-menu {
   margin: 0 auto;
   height: 65px;
-  width: 400px;
-  border:3px solid salmon;
   overflow: hidden;
   &__dragable {
     height: 100%;
-    width: 1280px;
-    border:3px solid dodgerblue ;
-
   }
   &__list {
     &__item {
       display: inline-block;
       float: left;
-      width: 25px;
       padding: 15px 25px;
       i {
         font-size: 25px;
@@ -29,3 +29,67 @@
   }
 }
 
+
+.sports-scroll-menu {
+  position: relative;
+  &__main{
+    width: 100%;
+    background: #F0F1F3;
+    position: relative;
+    overflow: hidden;
+    height: 45px;
+  }
+  &__dragable {
+    width: 1500px;
+    height: 100%;
+    position: relative;
+  }
+  &__item {
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    &:first-of-type {
+      margin-left: 15px;
+    }
+    &__link {
+      font-family: $font1;
+      color: #171D1C;
+      padding-left: 10px;
+      padding-right: 10px;
+      &:hover {
+        color: #171D1C;
+        text-decoration: none;
+      }
+      &:active {
+        color: #171D1C;
+        text-decoration: none;
+      }
+    }
+  }
+  &__btn {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    background: white;
+    height: 100%;
+    padding: 0px;
+    &:before {
+      font-size: 20px;
+    }
+    &:focus {
+      outline: 0;
+    }
+  }
+  &--left {
+    right: 20px;
+    margin-right: 5px;
+  }
+  &--right {
+    right: 0px;
+  }
+}

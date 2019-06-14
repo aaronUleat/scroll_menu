@@ -63,6 +63,7 @@ function watch() {
     // Note -- you can obviously add the path to the Paths object
     //gulp.watch("src/*.html", reload);
     gulp.watch("src/*.html").on('change', browserSync.reload);
+    gulp.watch("src/js/*.js").on('change', browserSync.reload);
 }
 
 // We don't have to expose the reload function

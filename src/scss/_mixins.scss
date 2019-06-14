@@ -1,0 +1,85 @@
+@mixin border-radius($top-left:10px, $top-right:null, $bottom-right:null, $bottom-left:null){
+  -webkit-border-radius: $top-left $top-right $bottom-right $bottom-left;
+     -moz-border-radius: $top-left $top-right $bottom-right $bottom-left;
+      -ms-border-radius: $top-left $top-right $bottom-right $bottom-left;
+          border-radius: $top-left $top-right $bottom-right $bottom-left;  
+}
+/* mixin usage */
+.demo1 {
+  @include border-radius(1em);
+}
+/**********************************************************************************************/
+
+
+/**
+ * MIXIN: Responsive Media Queries.
+ *
+ * Creates responsive media queries for eight different screen sizes.
+ * These are based on min-width which means if x is the size then your
+ * CSS will affect any device with screen width x and above.
+ *
+ * USAGE: 
+ *	@include resolution(240)  { }
+ *	@include resolution(320)  { }
+ *	@include resolution(480)  { }
+ *	@include resolution(768)  { }
+ *	@include resolution(992)  { }
+ *	@include resolution(1024) { }
+ *	@include resolution(1140) { }
+ *	@include resolution(1280) { }
+ *	@include resolution(1500) { }
+ *
+ */
+@mixin resolution( $point ) {
+	@if $point==240 {
+		@media ( min-width: 240px ) {
+			@content;
+		}
+	}
+	@if $point==320 {
+		@media ( min-width: 320px ) {
+			@content;
+		}
+	}
+	@if $point==480 {
+		@media ( min-width: 480px ) {
+			@content;
+		}
+	}
+	@if $point==600 {
+		@media ( min-width: 600px ) {
+			@content;
+		}
+	}
+	@if $point==768 {
+		@media ( min-width: 768px ) {
+			@content;
+		}
+	}
+	@if $point==992 {
+		@media ( min-width: 992px ) {
+			@content;
+		}
+	}
+	@if $point==1024 {
+		@media ( min-width: 1024px ) {
+			@content;
+		}
+	}
+	@if $point==1140 {
+		@media ( min-width: 1140px ) {
+			@content;
+		}
+	}
+	@if $point==1280 {
+		@media ( min-width: 1280px ) {
+			@content;
+		}
+	}
+	@if $point==1500 {
+		@media ( min-width: 1500px ) {
+			@content;
+		}
+	}
+}
+/****************Orientation***********************/
